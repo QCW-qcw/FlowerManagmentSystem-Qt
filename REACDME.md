@@ -1,6 +1,7 @@
 ## 花卉生产管理系统
 系统平台：Windows 10 家庭中文版
-Qt:![qt](./image_md/qtcreator.jpg)
+Qt:
+![qt](./image_md/qtcreator.jpg)
 数据库： MySQL
 ### 项目要求
 ![项目要求](./image_md/项目要求.png)
@@ -28,8 +29,10 @@ Qt:![qt](./image_md/qtcreator.jpg)
 - QT连接MySQL数据库方式：
   - 自编译数据库驱动
   - 采用ODBC驱动
-- 执行数据库SQL文件：在自己的电脑数据库软件上执行flowermanagment.sql生成花表和用户表 ![数据表](./image_md/数据库表.jpg)
-- QT配置数据库: 更改global.cpp中数据库连接设置：![数据库设置](./image_md/数据库设置.jpg)
+- 执行数据库SQL文件：在自己的电脑数据库软件上执行flowermanagment.sql生成花表和用户表 
+- ![数据表](./image_md/数据库表.jpg)
+- QT配置数据库: 更改global.cpp中数据库连接设置：
+  ![数据库设置](./image_md/数据库设置.jpg)
 - 编译启动
   - 如遇到qchart_xxxx.h找不到，请删除#include<qcart_xxx.h>中的qchart
 
@@ -79,16 +82,23 @@ Qt:![qt](./image_md/qtcreator.jpg)
    - 支持表中首尾项，下一项，上一项按钮操作
    - 支持导出查询结果为excel和pdf
    - 支持查询结果文件发送到服务端
+  
 ![文件发送](./image_md/文件发送服务.jpg)
+
+
    - 支持管理员删除记录
    - 支持用户更新记录，收割花卉
+  
 ![报表查询](./image_md/报表查询.jpg)
+
 ![报表查询](./image_md/报表查询1.jpg)
+
 ![报表查询文件导出](./image_md/报表查询文件导出.jpg)
 
 #### 地图管理：
    - 支持花卉地理信息可视化展示
    - 支持地图地理位置显示
+  
 ![地图展示](./image_md/地图展示1.jpg)
 ![地图展示](./image_md/地图展示.jpg)
 
@@ -97,6 +107,8 @@ Qt:![qt](./image_md/qtcreator.jpg)
 - 支持同种花卉不同种花卉数量以及需求方数量展示
 - 支持饼图，柱状图展示
 - 支持点击动画展示效果
+
+
 ![生产分析1](./image_md/生成分析.jpg)
 ![花卉数量](./image_md/花卉数量.jpg)
 ![生长状况](./image_md/生长状况.jpg)
@@ -105,21 +117,28 @@ Qt:![qt](./image_md/qtcreator.jpg)
 #### 系统设置：
   - 支持管理员添加用户
 	    数据库中 1 为管理员，0 为用户
+    
+
 ![系统设置](./image_md/系统设置.jpg)
 ![管理员用户注册](./image_md/管理员用户注册.jpg)
 
 #### 附加功能:
 - 生产日历:支持农历查询
+  
 ![生产日历](./image_md/生产日历.jpg)
 
 - 天气助手：支持花卉所在地天气状况查询，更新时间为1小时
+  
   ![天气助手](./image_md/天气助手.jpg)
 
 - 消息帮助：支持局域网内消息沟通，帮助
+  
   ![消息帮助](./image_md/消息帮助.jpg)
 
 - 操作日志记录：系统生成操作日志，每个一小时更换记录存档
+  
 ![操作日志记录](./image_md/操作日志.jpg)
+
 ![日志记录](./image_md/日志记录.jpg)
 
 #### 注意
@@ -140,5 +159,6 @@ Qt:![qt](./image_md/qtcreator.jpg)
     - qcw1992184@163.com
     - QQ : 2098000428
 - 打赏
-  ![打赏](./image_md/赞赏码.png)
+
+  <img src="./image_md/赞赏码.png" width="60%"/>
   
