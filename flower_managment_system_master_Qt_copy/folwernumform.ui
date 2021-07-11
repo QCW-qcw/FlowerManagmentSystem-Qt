@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>folwernumForm</class>
+ <widget class="QWidget" name="folwernumForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1389</width>
+    <height>860</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="main.qrc">
+    <normaloff>:/image/花.png</normaloff>:/image/花.png</iconset>
+  </property>
+  <widget class="QtCharts::QChartView" name="graphicsView">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1391</width>
+     <height>861</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QtCharts::QChartView</class>
+   <extends>QGraphicsView</extends>
+   <header location="global">qtcharts_qchartview.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="main.qrc"/>
+ </resources>
+ <connections/>
+</ui>

@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>flowershow</class>
+ <widget class="QWidget" name="flowershow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1789</width>
+    <height>832</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>flowershow</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="main.qrc">
+    <normaloff>:/image/花.png</normaloff>:/image/花.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(229, 229, 229);</string>
+  </property>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>80</y>
+     <width>321</width>
+     <height>241</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/康乃馨1.jfif);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>80</y>
+     <width>321</width>
+     <height>241</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/Lilium.jpg);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>30</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 14pt &quot;宋体&quot;;
+background-color: rgb(231, 231, 231);</string>
+   </property>
+   <property name="text">
+    <string>康乃馨</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>30</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 14pt &quot;宋体&quot;;
+background-color: rgb(231, 231, 231);</string>
+   </property>
+   <property name="text">
+    <string>水仙</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_3">
+   <property name="geometry">
+    <rect>
+     <x>740</x>
+     <y>80</y>
+     <width>321</width>
+     <height>241</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/narc2221.jpg);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>890</x>
+     <y>30</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 14pt &quot;宋体&quot;;
+background-color: rgb(231, 231, 231);</string>
+   </property>
+   <property name="text">
+    <string>百合</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_4">
+   <property name="geometry">
+    <rect>
+     <x>1090</x>
+     <y>80</y>
+     <width>321</width>
+     <height>241</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/rose.jpg);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>1240</x>
+     <y>30</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 14pt &quot;宋体&quot;;
+background-color: rgb(231, 231, 231);</string>
+   </property>
+   <property name="text">
+    <string>玫瑰</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_5">
+   <property name="geometry">
+    <rect>
+     <x>1440</x>
+     <y>80</y>
+     <width>321</width>
+     <height>241</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/tulip.jpg);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>1590</x>
+     <y>30</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 14pt &quot;宋体&quot;;
+background-color: rgb(231, 231, 231);</string>
+   </property>
+   <property name="text">
+    <string>郁金香</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="textEdit">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>360</y>
+     <width>321</width>
+     <height>421</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="textEdit_2">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>360</y>
+     <width>321</width>
+     <height>421</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="textEdit_3">
+   <property name="geometry">
+    <rect>
+     <x>740</x>
+     <y>360</y>
+     <width>321</width>
+     <height>421</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="textEdit_4">
+   <property name="geometry">
+    <rect>
+     <x>1090</x>
+     <y>360</y>
+     <width>321</width>
+     <height>421</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="textEdit_5">
+   <property name="geometry">
+    <rect>
+     <x>1440</x>
+     <y>360</y>
+     <width>321</width>
+     <height>421</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="main.qrc"/>
+ </resources>
+ <connections/>
+</ui>

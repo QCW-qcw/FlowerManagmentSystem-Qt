@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>frmLunarCalendarWidget</class>
+ <widget class="QWidget" name="frmLunarCalendarWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>647</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="main.qrc">
+    <normaloff>:/image/花.png</normaloff>:/image/花.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">font: 10pt &quot;楷体&quot;;</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="LunarCalendarWidget" name="lunarCalendarWidget" native="true">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QLabel" name="labCalendarStyle">
+       <property name="text">
+        <string>整体样式</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="cboxCalendarStyle">
+       <property name="minimumSize">
+        <size>
+         <width>90</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 1px solid gray;/*设置边框的粗细，以及颜色*/
+border-radius: 10px;/*设置圆角的大小*/
+padding: 0 8px;/*如果没有内容光标在开始往后移动0.8像素点*/
+selection-background-color: darkgray;
+   </string>
+       </property>
+       <item>
+        <property name="text">
+         <string>红色风格</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="labSelectType">
+       <property name="text">
+        <string>选中样式</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="cboxSelectType">
+       <property name="minimumSize">
+        <size>
+         <width>90</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 1px solid gray;/*设置边框的粗细，以及颜色*/
+border-radius: 10px;/*设置圆角的大小*/
+padding: 0 8px;/*如果没有内容光标在开始往后移动0.8像素点*/
+selection-background-color: darkgray;
+   </string>
+       </property>
+       <item>
+        <property name="text">
+         <string>矩形背景</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>圆形背景</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>角标背景</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>图片背景</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="labWeekNameFormat">
+       <property name="text">
+        <string>星期格式</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="cboxWeekNameFormat">
+       <property name="minimumSize">
+        <size>
+         <width>90</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 1px solid gray;/*设置边框的粗细，以及颜色*/
+border-radius: 10px;/*设置圆角的大小*/
+padding: 0 8px;/*如果没有内容光标在开始往后移动0.8像素点*/
+selection-background-color: darkgray;
+   </string>
+       </property>
+       <item>
+        <property name="text">
+         <string>短名称</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>普通名称</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>长名称</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>英文名称</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item>
+      <widget class="QCheckBox" name="ckShowLunar">
+       <property name="text">
+        <string>显示农历</string>
+       </property>
+       <property name="checked">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>LunarCalendarWidget</class>
+   <extends>QWidget</extends>
+   <header>lunarcalendarwidget.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="main.qrc"/>
+ </resources>
+ <connections/>
+</ui>

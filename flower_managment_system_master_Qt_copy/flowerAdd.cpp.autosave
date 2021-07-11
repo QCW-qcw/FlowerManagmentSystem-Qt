@@ -1,0 +1,300 @@
+#include "uidemo18.h"
+#include "loginwindow.h"
+#include "flowersclass.h"
+#include <QDate>
+#include <QSqlDatabase>
+#include <QMessageBox>
+#include <QSqlQuery>
+#include "registerwindow.h"
+
+/*添加花卉信息函数实现*/
+//玫瑰
+/*void RoseFlowers::addFlower(QString flowerType, QString plantTime, QString farming, QString nongzi, QString location1, QString location2, QString location3, QString location4, QString company, QString contactPerson, QString contactNum, QString quantity, QString costperPlant, QString userName, QString remark){
+
+}
+*/
+
+void RoseFlowers::addRose(QString flowerType, QString plantTime, QString farming, QString nongzi, QString location1, QString location2, QString location3, QString location4, QString company, QString contactPerson, QString contactNum, QString quantity, QString costperPlant, QString userName, QString remark)
+{
+
+    float sum = quantity.toFloat();
+    float costperplant = costperPlant.toFloat();
+    float cost = sum * costperplant;
+
+    QSqlQuery query,query1;
+    //插入花卉信息
+    query.prepare("insert into flowermanagment.rose(type, plantTime, company, contactPerson, contactNum, quantity, costperPlant, cost, operator, fertilization, watering, growth)"
+                              "values(:type,:plantTime,:company,:contactPerson,:contactNum,:quantity,:costperPlant,:cost,:operator,:fertilization,:watering,:growth)");
+
+    query.bindValue(":type", flowerType);
+    query.bindValue(":plantTime",plantTime);
+    query.bindValue(":farming", farming);
+    query.bindValue(":nongzi", nongzi);
+    query.bindValue(":location1", location1);
+    query.bindValue(":location2", location2);
+    query.bindValue(":location3", location3);
+    query.bindValue(":location4", location4);
+    query.bindValue(":company", company);
+    query.bindValue(":contactPerson", contactPerson);
+    query.bindValue(":contactNum", contactNum);
+    query.bindValue(":quantity", quantity);
+    query.bindValue(":costperPlant", costperPlant);
+    query.bindValue(":cost", cost);
+    query.bindValue(":operator", userName);
+    query.bindValue(":fertilization", "肥料情况正常");
+    query.bindValue(":watering", "浇水情况正常");
+    query.bindValue(":growth", "A");
+    query.bindValue(":remark", remark);
+    query.exec();
+/*
+
+    query1.prepare("insert into flowermanagment.flower_info(type, plantTime, company, contactPerson, contactNum, quantity, costperPlant, cost, operator, fertilization, watering, growth)"
+                              "values(:type,:plantTime,:company,:contactPerson,:contactNum,:quantity,:costperPlant,:cost,:operator,:fertilization,:watering,:growth)");
+    query1.bindValue(":type", flowerType);
+    query1.bindValue(":plantTime",plantTime);
+    query1.bindValue(":farming", farming);
+    query1.bindValue(":nongzi", nongzi);
+    query1.bindValue(":location1", location1);
+    query1.bindValue(":location2", location2);
+    query1.bindValue(":location3", location3);
+    query1.bindValue(":location4", location4);
+    query1.bindValue(":company", company);
+    query1.bindValue(":contactPerson", contactPerson);
+    query1.bindValue(":contactNum", contactNum);
+    query1.bindValue(":quantity", quantity);
+    query1.bindValue(":costperPlant", costperPlant);
+    query1.bindValue(":cost", cost);
+    query1.bindValue(":operator", userName);
+    query1.bindValue(":fertilization", "肥料情况正常");
+    query1.bindValue(":watering", "浇水情况正常");
+    query1.bindValue(":growth", "A");
+    query1.bindValue(":remark", remark);
+    query1.exec();
+*/
+}
+//康乃馨
+void KnxFlowers::addCarnation(QString flowerType, QString plantTime, QString farming, QString nongzi, QString location1, QString location2, QString location3, QString location4, QString company, QString contactPerson, QString contactNum, QString quantity, QString costperPlant, QString userName, QString remark)
+{
+    float sum = quantity.toFloat();
+    float costperplant = costperPlant.toFloat();
+    float cost = sum * costperplant;
+
+        QSqlQuery query,query1;
+
+    //插入花卉信息
+    query.prepare("insert into flowermanagment.carnation(type, plantTime, farming, nongzi, location1, location2, location3, location4, company, contactPerson, contactNum, quantity, costperPlant, cost, operator, fertilization, watering, growth, remark)"
+                  "values(:type,:plantTime,:farming,:nongzi,:location1,:location2,:location3,:location4,:company,:contactPerson,:contactNum,:quantity,:costperPlant,:cost,:operator,:fertilization,:watering,:growth,:remark)");
+    query.bindValue(":type", flowerType);
+    query.bindValue(":plantTime",plantTime);
+    query.bindValue(":farming", farming);
+    query.bindValue(":nongzi", nongzi);
+    query.bindValue(":location1", location1);
+    query.bindValue(":location2", location2);
+    query.bindValue(":location3", location3);
+    query.bindValue(":location4", location4);
+    query.bindValue(":company", company);
+    query.bindValue(":contactPerson", contactPerson);
+    query.bindValue(":contactNum", contactNum);
+    query.bindValue(":quantity", quantity);
+    query.bindValue(":costperPlant", costperPlant);
+    query.bindValue(":cost", cost);
+    query.bindValue(":operator", userName);
+    query.bindValue(":fertilization", "肥料情况正常");
+    query.bindValue(":watering", "浇水情况正常");
+    query.bindValue(":growth", "A");
+    query.bindValue(":remark", remark);
+    query.exec();
+/*
+    query1.prepare("insert into flowermanagment.flower_info(type, plantTime, company, contactPerson, contactNum, quantity, costperPlant, cost, operator, fertilization, watering, growth)"
+                              "values(:type,:plantTime,:company,:contactPerson,:contactNum,:quantity,:costperPlant,:cost,:operator,:fertilization,:watering,:growth)");
+    query1.bindValue(":type", flowerType);
+    query1.bindValue(":plantTime",plantTime);
+    query1.bindValue(":farming", farming);
+    query1.bindValue(":nongzi", nongzi);
+    query1.bindValue(":location1", location1);
+    query1.bindValue(":location2", location2);
+    query1.bindValue(":location3", location3);
+    query1.bindValue(":location4", location4);
+    query1.bindValue(":company", company);
+    query1.bindValue(":contactPerson", contactPerson);
+    query1.bindValue(":contactNum", contactNum);
+    query1.bindValue(":quantity", quantity);
+    query1.bindValue(":costperPlant", costperPlant);
+    query1.bindValue(":cost", cost);
+    query1.bindValue(":operator", userName);
+    query1.bindValue(":fertilization", "肥料情况正常");
+    query1.bindValue(":watering", "浇水情况正常");
+    query1.bindValue(":growth", "A");
+    query1.bindValue(":remark", remark);
+    query1.exec();
+*/
+}
+//郁金香
+void TulipFlowers::addTulip(QString flowerType, QString plantTime, QString farming, QString nongzi, QString location1, QString location2, QString location3, QString location4, QString company, QString contactPerson, QString contactNum, QString quantity, QString costperPlant, QString userName, QString remark)
+{
+    float sum = quantity.toFloat();
+    float costperplant = costperPlant.toFloat();
+    float cost = sum * costperplant;
+
+        QSqlQuery query,query1;
+
+    //插入花卉信息
+    query.prepare("insert into flower_managerment.flower_info(type, plantTime, farming, nongzi, location1, location2, location3, location4, company, contactPerson, contactNum, quantity, costperPlant, cost, operator, fertilization, watering, growth, remark)"
+                  "values(:type,:plantTime,:farming,:nongzi,:location1,:location2,:location3,:location4,:company,:contactPerson,:contactNum,:quantity,:costperPlant,:cost,:operator,:fertilization,:watering,:growth,:remark)");
+    query.bindValue(":type", flowerType);
+    query.bindValue(":plantTime",plantTime);
+    query.bindValue(":farming", farming);
+    query.bindValue(":nongzi", nongzi);
+    query.bindValue(":location1", location1);
+    query.bindValue(":location2", location2);
+    query.bindValue(":location3", location3);
+    query.bindValue(":location4", location4);
+    query.bindValue(":company", company);
+    query.bindValue(":contactPerson", contactPerson);
+    query.bindValue(":contactNum", contactNum);
+    query.bindValue(":quantity", quantity);
+    query.bindValue(":costperPlant", costperPlant);
+    query.bindValue(":cost", cost);
+    query.bindValue(":operator", userName);
+    query.bindValue(":fertilization", "肥料情况正常");
+    query.bindValue(":watering", "浇水情况正常");
+    query.bindValue(":growth", "A");
+    query.bindValue(":remark", remark);
+    query.exec();
+/*
+    query1.prepare("insert into flowermanagment.flower_info(type, plantTime, company, contactPerson, contactNum, quantity, costperPlant, cost, operator, fertilization, watering, growth)"
+                              "values(:type,:plantTime,:company,:contactPerson,:contactNum,:quantity,:costperPlant,:cost,:operator,:fertilization,:watering,:growth)");
+    query1.bindValue(":type", flowerType);
+    query1.bindValue(":plantTime",plantTime);
+    query1.bindValue(":farming", farming);
+    query1.bindValue(":nongzi", nongzi);
+    query1.bindValue(":location1", location1);
+    query1.bindValue(":location2", location2);
+    query1.bindValue(":location3", location3);
+    query1.bindValue(":location4", location4);
+    query1.bindValue(":company", company);
+    query1.bindValue(":contactPerson", contactPerson);
+    query1.bindValue(":contactNum", contactNum);
+    query1.bindValue(":quantity", quantity);
+    query1.bindValue(":costperPlant", costperPlant);
+    query1.bindValue(":cost", cost);
+    query1.bindValue(":operator", userName);
+    query1.bindValue(":fertilization", "肥料情况正常");
+    query1.bindValue(":watering", "浇水情况正常");
+    query1.bindValue(":growth", "A");
+    query1.bindValue(":remark", remark);
+    query1.exec();
+    */
+}
+//水仙
+void SxFlowers::addNarcissus(QString flowerType, QString plantTime, QString farming, QString nongzi, QString location1, QString location2, QString location3, QString location4, QString company, QString contactPerson, QString contactNum, QString quantity, QString costperPlant, QString userName, QString remark)
+{
+    float sum = quantity.toFloat();
+    float costperplant = costperPlant.toFloat();
+    float cost = sum * costperplant;
+
+        QSqlQuery query,query1;
+
+    //插入花卉信息
+    query.prepare("insert into flowermanagment.narcissus(type, plantTime, farming, nongzi, location1, location2, location3, location4, company, contactPerson, contactNum, quantity, costperPlant, cost, operator, fertilization, watering, growth, remark)"
+                  "values(:type,:plantTime,:farming,:nongzi,:location1,:location2,:location3,:location4,:company,:contactPerson,:contactNum,:quantity,:costperPlant,:cost,:operator,:fertilization,:watering,:growth,:remark)");
+    query.bindValue(":type", flowerType);
+    query.bindValue(":plantTime",plantTime);
+    query.bindValue(":farming", farming);
+    query.bindValue(":nongzi", nongzi);
+    query.bindValue(":location1", location1);
+    query.bindValue(":location2", location2);
+    query.bindValue(":location3", location3);
+    query.bindValue(":location4", location4);
+    query.bindValue(":company", company);
+    query.bindValue(":contactPerson", contactPerson);
+    query.bindValue(":contactNum", contactNum);
+    query.bindValue(":quantity", quantity);
+    query.bindValue(":costperPlant", costperPlant);
+    query.bindValue(":cost", cost);
+    query.bindValue(":operator", userName);
+    query.bindValue(":fertilization", "肥料情况正常");
+    query.bindValue(":watering", "浇水情况正常");
+    query.bindValue(":growth", "A");
+    query.bindValue(":remark", remark);
+    query.exec();
+    /*
+    query1.prepare("insert into flowermanagment.flower_info(type, plantTime, company, contactPerson, contactNum, quantity, costperPlant, cost, operator, fertilization, watering, growth)"
+                              "values(:type,:plantTime,:company,:contactPerson,:contactNum,:quantity,:costperPlant,:cost,:operator,:fertilization,:watering,:growth)");
+    query1.bindValue(":type", flowerType);
+    query1.bindValue(":plantTime",plantTime);
+    query1.bindValue(":farming", farming);
+    query1.bindValue(":nongzi", nongzi);
+    query1.bindValue(":location1", location1);
+    query1.bindValue(":location2", location2);
+    query1.bindValue(":location3", location3);
+    query1.bindValue(":location4", location4);
+    query1.bindValue(":company", company);
+    query1.bindValue(":contactPerson", contactPerson);
+    query1.bindValue(":contactNum", contactNum);
+    query1.bindValue(":quantity", quantity);
+    query1.bindValue(":costperPlant", costperPlant);
+    query1.bindValue(":cost", cost);
+    query1.bindValue(":operator", userName);
+    query1.bindValue(":fertilization", "肥料情况正常");
+    query1.bindValue(":watering", "浇水情况正常");
+    query1.bindValue(":growth", "A");
+    query1.bindValue(":remark", remark);
+    query1.exec();*/
+}
+//百合
+void BhFlowers::addLily(QString flowerType, QString plantTime, QString farming, QString nongzi, QString location1, QString location2, QString location3, QString location4, QString company, QString contactPerson, QString contactNum, QString quantity, QString costperPlant, QString userName, QString remark)
+{
+    float sum = quantity.toFloat();
+    float costperplant = costperPlant.toFloat();
+    float cost = sum * costperplant;
+        QSqlQuery query,query1;
+
+    //插入花卉信息
+    query.prepare("insert into flowermanagment.lily(type, plantTime, farming, nongzi, location1, location2, location3, location4, company, contactPerson, contactNum, quantity, costperPlant, cost, operator, fertilization, watering, growth, remark)"
+                  "values(:type,:plantTime,:farming,:nongzi,:location1,:location2,:location3,:location4,:company,:contactPerson,:contactNum,:quantity,:costperPlant,:cost,:operator,:fertilization,:watering,:growth,:remark)");
+    query.bindValue(":type", flowerType);
+    query.bindValue(":plantTime",plantTime);
+    query.bindValue(":farming", farming);
+    query.bindValue(":nongzi", nongzi);
+    query.bindValue(":location1", location1);
+    query.bindValue(":location2", location2);
+    query.bindValue(":location3", location3);
+    query.bindValue(":location4", location4);
+    query.bindValue(":company", company);
+    query.bindValue(":contactPerson", contactPerson);
+    query.bindValue(":contactNum", contactNum);
+    query.bindValue(":quantity", quantity);
+    query.bindValue(":costperPlant", costperPlant);
+    query.bindValue(":cost", cost);
+    query.bindValue(":operator", userName);
+    query.bindValue(":fertilization", "肥料情况正常");
+    query.bindValue(":watering", "浇水情况正常");
+    query.bindValue(":growth", "A");
+    query.bindValue(":remark", remark);
+    query.exec();
+    /*
+    query1.prepare("insert into flowermanagment.flower_info(type, plantTime, company, contactPerson, contactNum, quantity, costperPlant, cost, operator, fertilization, watering, growth)"
+                              "values(:type,:plantTime,:company,:contactPerson,:contactNum,:quantity,:costperPlant,:cost,:operator,:fertilization,:watering,:growth)");
+    query1.bindValue(":type", flowerType);
+    query1.bindValue(":plantTime",plantTime);
+    query1.bindValue(":farming", farming);
+    query1.bindValue(":nongzi", nongzi);
+    query1.bindValue(":location1", location1);
+    query1.bindValue(":location2", location2);
+    query1.bindValue(":location3", location3);
+    query1.bindValue(":location4", location4);
+    query1.bindValue(":company", company);
+    query1.bindValue(":contactPerson", contactPerson);
+    query1.bindValue(":contactNum", contactNum);
+    query1.bindValue(":quantity", quantity);
+    query1.bindValue(":costperPlant", costperPlant);
+    query1.bindValue(":cost", cost);
+    query1.bindValue(":operator", userName);
+    query1.bindValue(":fertilization", "肥料情况正常");
+    query1.bindValue(":watering", "浇水情况正常");
+    query1.bindValue(":growth", "A");
+    query1.bindValue(":remark", remark);
+    query1.exec();
+    */
+}

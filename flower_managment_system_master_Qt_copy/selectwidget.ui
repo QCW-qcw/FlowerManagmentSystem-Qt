@@ -1,0 +1,1673 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>selectWidget</class>
+ <widget class="QWidget" name="selectWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1573</width>
+    <height>849</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>selectWidget</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="main.qrc">
+    <normaloff>:/image/花.png</normaloff>:/image/花.png</iconset>
+  </property>
+  <widget class="QComboBox" name="feiliao">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>550</y>
+     <width>180</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 1px solid gray;/*设置边框的粗细，以及颜色*/
+border-radius: 10px;/*设置圆角的大小*/
+padding: 0 8px;/*如果没有内容光标在开始往后移动0.8像素点*/
+selection-background-color: darkgray;
+   </string>
+   </property>
+   <property name="editable">
+    <bool>true</bool>
+   </property>
+   <item>
+    <property name="text">
+     <string/>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>急缺肥料</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>缺少少量肥料</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>肥料情况正常</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QComboBox" name="growth">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>650</y>
+     <width>180</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 1px solid gray;/*设置边框的粗细，以及颜色*/
+border-radius: 10px;/*设置圆角的大小*/
+padding: 0 8px;/*如果没有内容光标在开始往后移动0.8像素点*/
+selection-background-color: darkgray;
+   </string>
+   </property>
+   <property name="editable">
+    <bool>true</bool>
+   </property>
+   <item>
+    <property name="text">
+     <string/>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>A</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>B+</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>B</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>C+</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>C</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>D</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>300</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 20 12pt &quot;楷体&quot;;
+</string>
+   </property>
+   <property name="text">
+    <string> 单位：</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checktime">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>160</y>
+     <width>31</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Agency FB</family>
+     <pointsize>8</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_9">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>450</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 20 12pt &quot;楷体&quot;;
+</string>
+   </property>
+   <property name="text">
+    <string> 数量：</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="phone">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>400</y>
+     <width>180</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 1px solid gray;/*设置边框的粗细，以及颜色*/
+border-radius: 10px;/*设置圆角的大小*/
+padding: 0 8px;/*如果没有内容光标在开始往后移动0.8像素点*/
+selection-background-color: darkgray;
+   </string>
+   </property>
+   <property name="editable">
+    <bool>true</bool>
+   </property>
+   <item>
+    <property name="text">
+     <string/>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>13199988367</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>18654293471</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>15914477918</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>18660628727</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>18711931260</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label_11">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>550</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 20 12pt &quot;楷体&quot;;
+</string>
+   </property>
+   <property name="text">
+    <string> 施肥情况：</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="flowername">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>100</y>
+     <width>180</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 1px solid gray;/*设置边框的粗细，以及颜色*/
+border-radius: 10px;/*设置圆角的大小*/
+padding: 0 8px;/*如果没有内容光标在开始往后移动0.8像素点*/
+selection-background-color: darkgray;
+   </string>
+   </property>
+   <property name="editable">
+    <bool>true</bool>
+   </property>
+   <item>
+    <property name="text">
+     <string/>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>郁金香</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>玫瑰</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>水仙</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>康乃馨</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>百合</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label_12">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>600</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 20 12pt &quot;楷体&quot;;
+</string>
+   </property>
+   <property name="text">
+    <string> 浇水情况：</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkcompany">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>310</y>
+     <width>31</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Agency FB</family>
+     <pointsize>8</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkid">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>60</y>
+     <width>31</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Agency FB</family>
+     <pointsize>8</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>350</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 20 12pt &quot;楷体&quot;;
+</string>
+   </property>
+   <property name="text">
+    <string> 联系人：</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="thing">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>200</y>
+     <width>180</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 1px solid gray;/*设置边框的粗细，以及颜色*/
+border-radius: 10px;/*设置圆角的大小*/
+padding: 0 8px;/*如果没有内容光标在开始往后移动0.8像素点*/
+selection-background-color: darkgray;
+   </string>
+   </property>
+   <property name="editable">
+    <bool>true</bool>
+   </property>
+   <item>
+    <property name="text">
+     <string/>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>7</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>8</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>9</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>150</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 20 12pt &quot;楷体&quot;;
+</string>
+   </property>
+   <property name="text">
+    <string> 种植时间：</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkconnect">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>360</y>
+     <width>31</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Agency FB</family>
+     <pointsize>8</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_18">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>10</y>
+     <width>91</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;楷体&quot;;</string>
+   </property>
+   <property name="text">
+    <string>是否隐藏</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="id">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>50</y>
+     <width>180</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 1px solid gray;/*设置边框的粗细，以及颜色*/
+border-radius: 10px;/*设置圆角的大小*/
+padding: 0 8px;/*如果没有内容光标在开始往后移动0.8像素点*/
+selection-background-color: darkgray;
+   </string>
+   </property>
+   <property name="editable">
+    <bool>true</bool>
+   </property>
+   <item>
+    <property name="text">
+     <string/>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>2</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>3</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>4</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>5</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>6</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>7</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>8</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>9</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QRadioButton" name="shengxu">
+   <property name="geometry">
+    <rect>
+     <x>219</x>
+     <y>810</y>
+     <width>91</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 20 12pt &quot;楷体&quot;;
+</string>
+   </property>
+   <property name="text">
+    <string>  升 序</string>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkfeiliao">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>560</y>
+     <width>31</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Agency FB</family>
+     <pointsize>8</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>50</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 20 12pt &quot;楷体&quot;;
+</string>
+   </property>
+   <property name="text">
+    <string> 编号：</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkothers">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>710</y>
+     <width>31</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Agency FB</family>
+     <pointsize>8</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_8">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>400</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 20 12pt &quot;楷体&quot;;
+</string>
+   </property>
+   <property name="text">
+    <string> 联系方式：</string>
+   </property>
+  </widget>
+  <widget class="QTableView" name="tableView">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>50</y>
+     <width>1221</width>
+     <height>681</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="money">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>250</y>
+     <width>180</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 1px solid gray;/*设置边框的粗细，以及颜色*/
+border-radius: 10px;/*设置圆角的大小*/
+padding: 0 8px;/*如果没有内容光标在开始往后移动0.8像素点*/
+selection-background-color: darkgray;
+   </string>
+   </property>
+   <property name="editable">
+    <bool>true</bool>
+   </property>
+   <item>
+    <property name="text">
+     <string/>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>8</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>9</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QRadioButton" name="jiangxu">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>810</y>
+     <width>101</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 20 12pt &quot;楷体&quot;;
+</string>
+   </property>
+   <property name="text">
+    <string>  降 序</string>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>false</bool>
+   </property>
+   <property name="autoRepeat">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="thesort">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>750</y>
+     <width>180</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 1px solid gray;/*设置边框的粗细，以及颜色*/
+border-radius: 10px;/*设置圆角的大小*/
+padding: 0 8px;/*如果没有内容光标在开始往后移动0.8像素点*/
+selection-background-color: darkgray;
+   </string>
+   </property>
+   <property name="editable">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_13">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>650</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 20 12pt &quot;楷体&quot;;
+</string>
+   </property>
+   <property name="text">
+    <string> 生长情况：</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="water">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>600</y>
+     <width>180</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 1px solid gray;/*设置边框的粗细，以及颜色*/
+border-radius: 10px;/*设置圆角的大小*/
+padding: 0 8px;/*如果没有内容光标在开始往后移动0.8像素点*/
+selection-background-color: darkgray;
+   </string>
+   </property>
+   <property name="editable">
+    <bool>true</bool>
+   </property>
+   <item>
+    <property name="text">
+     <string/>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>急缺水</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>缺少量水</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>浇水情况正常</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QCheckBox" name="checkmoney">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>260</y>
+     <width>31</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Agency FB</family>
+     <pointsize>8</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkphone">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>410</y>
+     <width>31</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Agency FB</family>
+     <pointsize>8</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkwater">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>610</y>
+     <width>31</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Agency FB</family>
+     <pointsize>8</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_15">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>700</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 20 12pt &quot;楷体&quot;;
+</string>
+   </property>
+   <property name="text">
+    <string> 备注：</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>72</width>
+     <height>15</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;楷体&quot;;</string>
+   </property>
+   <property name="text">
+    <string>字段名</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>160</y>
+     <width>81</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>楷体</family>
+     <pointsize>8</pointsize>
+     <weight>1</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 8 8pt &quot;楷体&quot;;
+</string>
+   </property>
+   <property name="text">
+    <string>加入查询</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="operater">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>500</y>
+     <width>180</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 1px solid gray;/*设置边框的粗细，以及颜色*/
+border-radius: 10px;/*设置圆角的大小*/
+padding: 0 8px;/*如果没有内容光标在开始往后移动0.8像素点*/
+selection-background-color: darkgray;
+   </string>
+   </property>
+   <property name="editable">
+    <bool>true</bool>
+   </property>
+   <item>
+    <property name="text">
+     <string/>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>钱光府</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>李墟洪</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>李斗翼</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>褚孺龙</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>李饯</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QCheckBox" name="checkoperator">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>510</y>
+     <width>31</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Agency FB</family>
+     <pointsize>8</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_10">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>500</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 20 12pt &quot;楷体&quot;;
+</string>
+   </property>
+   <property name="text">
+    <string> 操作人员：</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>250</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 20 12pt &quot;楷体&quot;;
+</string>
+   </property>
+   <property name="text">
+    <string> 农资：</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="num">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>450</y>
+     <width>180</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 1px solid gray;/*设置边框的粗细，以及颜色*/
+border-radius: 10px;/*设置圆角的大小*/
+padding: 0 8px;/*如果没有内容光标在开始往后移动0.8像素点*/
+selection-background-color: darkgray;
+   </string>
+   </property>
+   <property name="editable">
+    <bool>true</bool>
+   </property>
+   <item>
+    <property name="text">
+     <string/>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>2</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>3</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>4</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>5</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>6</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>7</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>8</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>9</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QCheckBox" name="checkname">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>110</y>
+     <width>31</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Agency FB</family>
+     <pointsize>8</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="others">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>700</y>
+     <width>180</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 1px solid gray;/*设置边框的粗细，以及颜色*/
+border-radius: 10px;/*设置圆角的大小*/
+padding: 0 8px;/*如果没有内容光标在开始往后移动0.8像素点*/
+selection-background-color: darkgray;
+   </string>
+   </property>
+   <property name="editable">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkgrowth">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>660</y>
+     <width>31</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Agency FB</family>
+     <pointsize>8</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QDateTimeEdit" name="starttime">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>150</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="displayFormat">
+    <string>yyyy/M/d </string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="contacts">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>350</y>
+     <width>180</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 1px solid gray;/*设置边框的粗细，以及颜色*/
+border-radius: 10px;/*设置圆角的大小*/
+padding: 0 8px;/*如果没有内容光标在开始往后移动0.8像素点*/
+selection-background-color: darkgray;
+   </string>
+   </property>
+   <property name="editable">
+    <bool>true</bool>
+   </property>
+   <item>
+    <property name="text">
+     <string/>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>李慧馨</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>张瑗雁</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>周淑梁</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>张仪蓓</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>卫淑美</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label_16">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>100</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 20 12pt &quot;楷体&quot;;
+</string>
+   </property>
+   <property name="text">
+    <string> 花种：</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>200</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 20 12pt &quot;楷体&quot;;
+</string>
+   </property>
+   <property name="text">
+    <string> 农事：</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_14">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>750</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 20 12pt &quot;楷体&quot;;
+</string>
+   </property>
+   <property name="text">
+    <string> 排序字段：</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_17">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>10</y>
+     <width>72</width>
+     <height>15</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;楷体&quot;;</string>
+   </property>
+   <property name="text">
+    <string>字段值</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkthing">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>210</y>
+     <width>31</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Agency FB</family>
+     <pointsize>8</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="company">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>300</y>
+     <width>180</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 1px solid gray;/*设置边框的粗细，以及颜色*/
+border-radius: 10px;/*设置圆角的大小*/
+padding: 0 8px;/*如果没有内容光标在开始往后移动0.8像素点*/
+selection-background-color: darkgray;
+   </string>
+   </property>
+   <property name="editable">
+    <bool>true</bool>
+   </property>
+   <item>
+    <property name="text">
+     <string/>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>登海五公司</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>博野衡公司</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>农梦而农业生产有限公司</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>登海轸农业生产有限公司</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QCheckBox" name="checknum">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>460</y>
+     <width>31</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Agency FB</family>
+     <pointsize>8</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>1160</x>
+     <y>750</y>
+     <width>391</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 14pt &quot;楷体&quot;;</string>
+   </property>
+   <property name="title">
+    <string>生产管理</string>
+   </property>
+   <widget class="QPushButton" name="shouge">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>40</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(225, 225, 225);border:1px groove gray;border-radius:4px;font: 20 12pt &quot;楷体&quot;;padding:1px 4px;border-style: outset;}
+
+
+                                       
+QPushButton:hover{background-color:#79ff50; color: black;}
+                                    
+QPushButton:pressed{background-color:rgb(204, 228, 247);border-style: inset;</string>
+    </property>
+    <property name="text">
+     <string>收割</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="gengxin">
+    <property name="geometry">
+     <rect>
+      <x>165</x>
+      <y>40</y>
+      <width>81</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(225, 225, 225);border:1px groove gray;border-radius:4px;font: 20 12pt &quot;楷体&quot;;padding:1px 4px;border-style: outset;}
+
+
+                                       
+QPushButton:hover{background-color:#79ff50; color: black;}
+                                    
+QPushButton:pressed{background-color:rgb(204, 228, 247);border-style: inset;</string>
+    </property>
+    <property name="text">
+     <string>更新</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="del">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>40</y>
+      <width>81</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(225, 225, 225);border:1px groove gray;border-radius:4px;font: 20 12pt &quot;楷体&quot;;padding:1px 4px;border-style: outset;}
+
+
+                                       
+QPushButton:hover{background-color:#79ff50; color: black;}
+                                    
+QPushButton:pressed{background-color:rgb(204, 228, 247);border-style: inset;</string>
+    </property>
+    <property name="text">
+     <string>删除</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_2">
+   <property name="geometry">
+    <rect>
+     <x>770</x>
+     <y>750</y>
+     <width>361</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 14pt &quot;楷体&quot;;</string>
+   </property>
+   <property name="title">
+    <string>文件管理</string>
+   </property>
+   <widget class="QPushButton" name="excelout">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>40</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(225, 225, 225);border:1px groove gray;border-radius:4px;font: 20 12pt &quot;楷体&quot;;padding:1px 4px;border-style: outset;}
+
+
+                                       
+QPushButton:hover{background-color:#79ff50; color: black;}
+                                    
+QPushButton:pressed{background-color:rgb(204, 228, 247);border-style: inset;</string>
+    </property>
+    <property name="text">
+     <string>导出excel</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="printpdf">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>40</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(225, 225, 225);border:1px groove gray;border-radius:4px;font: 20 12pt &quot;楷体&quot;;padding:1px 4px;border-style: outset;}
+
+
+                                       
+QPushButton:hover{background-color:#79ff50; color: black;}
+                                    
+QPushButton:pressed{background-color:rgb(204, 228, 247);border-style: inset;</string>
+    </property>
+    <property name="text">
+     <string>导出pdf</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="printpdf_2">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>40</y>
+      <width>101</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(225, 225, 225);border:1px groove gray;border-radius:4px;font: 20 12pt &quot;楷体&quot;;padding:1px 4px;border-style: outset;}
+
+
+                                       
+QPushButton:hover{background-color:#79ff50; color: black;}
+                                    
+QPushButton:pressed{background-color:rgb(204, 228, 247);border-style: inset;</string>
+    </property>
+    <property name="text">
+     <string>发送文件</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_3">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>740</y>
+     <width>421</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 14pt &quot;楷体&quot;;</string>
+   </property>
+   <property name="title">
+    <string>查询面板</string>
+   </property>
+   <widget class="QPushButton" name="nextitem">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>70</y>
+      <width>92</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(225, 225, 225);border:1px groove gray;border-radius:4px;font: 20 12pt &quot;楷体&quot;;padding:1px 4px;border-style: outset;}
+
+
+                                       
+QPushButton:hover{background-color:#79ff50; color: black;}
+                                    
+QPushButton:pressed{background-color:rgb(204, 228, 247);border-style: inset;</string>
+    </property>
+    <property name="text">
+     <string>后一项</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="viewtab">
+    <property name="geometry">
+     <rect>
+      <x>112</x>
+      <y>31</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(225, 225, 225);border:1px groove gray;border-radius:4px;font: 20 12pt &quot;楷体&quot;;padding:1px 4px;border-style: outset;}
+
+
+                                       
+QPushButton:hover{background-color:#79ff50; color: black;}
+                                    
+QPushButton:pressed{background-color:rgb(204, 228, 247);border-style: inset;</string>
+    </property>
+    <property name="text">
+     <string>浏览全表</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="firstrecord">
+    <property name="geometry">
+     <rect>
+      <x>211</x>
+      <y>31</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(225, 225, 225);border:1px groove gray;border-radius:4px;font: 20 12pt &quot;楷体&quot;;padding:1px 4px;border-style: outset;}
+
+
+                                       
+QPushButton:hover{background-color:#79ff50; color: black;}
+                                    
+QPushButton:pressed{background-color:rgb(204, 228, 247);border-style: inset;</string>
+    </property>
+    <property name="text">
+     <string>首项</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="reset">
+    <property name="geometry">
+     <rect>
+      <x>13</x>
+      <y>31</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(225, 225, 225);border:1px groove gray;border-radius:4px;font: 20 12pt &quot;楷体&quot;;padding:1px 4px;border-style: outset;}
+
+
+                                       
+QPushButton:hover{background-color:#79ff50; color: black;}
+                                    
+QPushButton:pressed{background-color:rgb(204, 228, 247);border-style: inset;</string>
+    </property>
+    <property name="text">
+     <string>重置</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="mohuselect">
+    <property name="geometry">
+     <rect>
+      <x>112</x>
+      <y>70</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(225, 225, 225);border:1px groove gray;border-radius:4px;font: 20 12pt &quot;楷体&quot;;padding:1px 4px;border-style: outset;}
+
+
+                                       
+QPushButton:hover{background-color:#79ff50; color: black;}
+                                    
+QPushButton:pressed{background-color:rgb(204, 228, 247);border-style: inset;</string>
+    </property>
+    <property name="text">
+     <string>模糊查询</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="lastrecord">
+    <property name="geometry">
+     <rect>
+      <x>211</x>
+      <y>70</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(225, 225, 225);border:1px groove gray;border-radius:4px;font: 20 12pt &quot;楷体&quot;;padding:1px 4px;border-style: outset;}
+
+
+                                       
+QPushButton:hover{background-color:#79ff50; color: black;}
+                                    
+QPushButton:pressed{background-color:rgb(204, 228, 247);border-style: inset;</string>
+    </property>
+    <property name="text">
+     <string>尾项</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="selectbth">
+    <property name="geometry">
+     <rect>
+      <x>13</x>
+      <y>70</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(225, 225, 225);border:1px groove gray;border-radius:4px;font: 20 12pt &quot;楷体&quot;;padding:1px 4px;border-style: outset;}
+
+
+                                       
+QPushButton:hover{background-color:#79ff50; color: black;}
+                                    
+QPushButton:pressed{background-color:rgb(204, 228, 247);border-style: inset;</string>
+    </property>
+    <property name="text">
+     <string>精确查询</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="preitem">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>31</y>
+      <width>92</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(225, 225, 225);border:1px groove gray;border-radius:4px;font: 20 12pt &quot;楷体&quot;;padding:1px 4px;border-style: outset;}
+
+
+                                       
+QPushButton:hover{background-color:#79ff50; color: black;}
+                                    
+QPushButton:pressed{background-color:rgb(204, 228, 247);border-style: inset;</string>
+    </property>
+    <property name="text">
+     <string>前一项</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="main.qrc"/>
+ </resources>
+ <connections/>
+</ui>
