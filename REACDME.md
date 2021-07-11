@@ -1,10 +1,11 @@
 ## 花卉生产管理系统
-系统平台：Windows 10 家庭中文版
-Qt:
+- 系统平台：Windows 10 家庭中文版
+- Qt:
 
 ![qt](./image_md/qtcreator.jpg)
 
-数据库： MySQL
+- 数据库： MySQL 8.0.25
+
 ### 项目要求
 
 ![项目要求](./image_md/项目要求.png)
@@ -171,7 +172,9 @@ Qt:
 - 建议：
     - qcw1992184@163.com
     - QQ : 2098000428
-- 打赏
+- 问题：
+  - 代码中存在若干问题点(我是故意的)，期待您的发现！
+- 打赏：
 
-  <img src="./image_md/赞赏码.png" width="50%"/>
+  <img src="./image_md/赞赏码.png" width="40%"/>
   
