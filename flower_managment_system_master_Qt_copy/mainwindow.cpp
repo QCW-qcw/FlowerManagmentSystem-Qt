@@ -1,7 +1,9 @@
 ﻿#include "mainwindow.h"
 #include "ui_mainwindow.h"
 #include<QMessageBox>
+#include<QDateTime>
 #include <QDesktopWidget>
+#include<QFile>
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::MainWindow)
@@ -12,8 +14,8 @@ MainWindow::MainWindow(QWidget *parent)
     connect(socket,&QTcpSocket::readyRead,this,&MainWindow::socket_Read_Data);
     connect(socket,&QTcpSocket::disconnected,this,&MainWindow::socket_Disconnected);
     ui->clientSend->setEnabled(false);
-    ui->IP->setText("10.99.14.0");
-    ui->Port->setText("8010");
+    ui->IP->setText("192.168.0.103");
+    ui->Port->setText("8888");
 
     QDesktopWidget* desktop = QApplication::desktop();
     move((desktop->width() - this->width())/2, (desktop->height() - this->height())/2);
@@ -69,12 +71,13 @@ void MainWindow::on_clintConnect_clicked()
 void MainWindow::on_clientSend_clicked()
 {
     QString mes =ui->sendmes->toPlainText();
-    mes = "Client:" + mes;
-    //  socket->write(mes.toLatin1());
-    socket->write(mes.toUtf8(),(mes.toUtf8().length()+1));
-
+    QString ip = ui->IP->text();
+    QString mes1 = ip + "_"  +  mes;
+    socket->write(mes1.toUtf8(),(mes1.toUtf8().length()+1));
     socket->flush();
-    // ui->messageList->addItem(mes.toLatin1());
+    QString current_date = QDateTime::currentDateTime().toString("yyyy.MM.dd hh:mm:ss");
+
+    mes = current_date + "      Client:" +  mes;
     ui->messageList->addItem(mes.toUtf8());
     ui->messageList->scrollToBottom();
     ui->sendmes->clear();
@@ -85,12 +88,10 @@ void MainWindow::socket_Read_Data(){
     buffer = socket->readAll();
     if(!buffer.isEmpty())
     {
-        QString str = ui->receivemes->toPlainText();
-        str+=tr(buffer);
-        //刷新显示
-        ui->receivemes->setText(str);
+        QString current_date = QDateTime::currentDateTime().toString("yyyy.MM.dd hh:mm:ss");
 
-        ui->messageList->addItem(buffer);
+        QString mes = current_date + "      Server:" +  buffer;
+        ui->messageList->addItem(mes);
         ui->messageList->scrollToBottom();
     }
 
@@ -103,4 +104,31 @@ void MainWindow::socket_Disconnected(){
     QMessageBox::information(NULL, "Connection", "Disconnected!", QMessageBox::Yes );
     qDebug() << "Disconnected!";
 
+}
+
+void MainWindow::on_getRecord_clicked()
+{
+    QString current_date = QDateTime::currentDateTime().toString("yyyy年MM月dd日 hh时mm分ss秒");
+
+    QFile file("./ "+ current_date +".txt");
+    file.open( QIODevice::ReadWrite | QIODevice::Append);
+    QTextStream out(&file);
+
+    int row=0;
+    while(row <(ui->messageList->count()))
+    {
+        QString line=ui->messageList->item(row)->text();
+
+        qDebug()<<line;
+        out<<line<<"\n";
+
+        row++;
+    }
+        file.close();
+
+}
+
+void MainWindow::on_clearRecord_clicked()
+{
+    ui->messageList->clear();
 }

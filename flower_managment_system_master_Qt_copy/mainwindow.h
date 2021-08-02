@@ -27,6 +27,10 @@ private slots:
     void socket_Disconnected();
 
 
+    void on_getRecord_clicked();
+
+    void on_clearRecord_clicked();
+
 private:
     Ui::MainWindow *ui;
     QTcpSocket *socket;

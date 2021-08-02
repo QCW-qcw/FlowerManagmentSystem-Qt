@@ -1,0 +1,82 @@
+Warning:2021-08-02 23:14:07  *File:  *Line:0  *Function:  *Message:QSqlDatabasePrivate::removeDatabase: connection 'qt_sql_default_connection' is still in use, all queries will cease to work.  
+Warning:2021-08-02 23:14:07  *File:  *Line:0  *Function:  *Message:QSqlDatabasePrivate::addDatabase: duplicate connection name 'qt_sql_default_connection', old connection removed.  
+Warning:2021-08-02 23:14:13  *File:  *Line:0  *Function:  *Message:QSqlDatabasePrivate::database: unable to open database: "Access denied for user 'ODBC'@'localhost' (using password: NO) QMYSQL: Unable to connect"  
+Debug:2021-08-02 23:14:13  *File:..\..\..\githubFlower\flower_managment_system_master_Qt_copy\selectwidget.cpp  *Line:62  *Function:__cdecl selectWidget::selectWidget(class QWidget *)  *Message:success,数据库连接失败  
+Warning:2021-08-02 23:14:13  *File:  *Line:0  *Function:  *Message:QSqlQuery::exec: database not open  
+Warning:2021-08-02 23:14:13  *File:  *Line:0  *Function:  *Message:QSqlDatabasePrivate::database: unable to open database: "Access denied for user 'ODBC'@'localhost' (using password: NO) QMYSQL: Unable to connect"  
+Warning:2021-08-02 23:14:13  *File:  *Line:0  *Function:  *Message:QSqlQuery::exec: database not open  
+Warning:2021-08-02 23:14:13  *File:  *Line:0  *Function:  *Message:QSqlDatabasePrivate::database: unable to open database: "Access denied for user 'ODBC'@'localhost' (using password: NO) QMYSQL: Unable to connect"  
+Warning:2021-08-02 23:14:13  *File:  *Line:0  *Function:  *Message:QSqlQuery::exec: database not open  
+Warning:2021-08-02 23:14:13  *File:  *Line:0  *Function:  *Message:QSqlDatabasePrivate::database: unable to open database: "Access denied for user 'ODBC'@'localhost' (using password: NO) QMYSQL: Unable to connect"  
+Warning:2021-08-02 23:14:13  *File:  *Line:0  *Function:  *Message:QSqlQuery::exec: database not open  
+Warning:2021-08-02 23:14:13  *File:  *Line:0  *Function:  *Message:QSqlDatabasePrivate::database: unable to open database: "Access denied for user 'ODBC'@'localhost' (using password: NO) QMYSQL: Unable to connect"  
+Warning:2021-08-02 23:14:13  *File:  *Line:0  *Function:  *Message:QSqlQuery::exec: database not open  
+Warning:2021-08-02 23:14:13  *File:  *Line:0  *Function:  *Message:QSqlDatabasePrivate::database: unable to open database: "Access denied for user 'ODBC'@'localhost' (using password: NO) QMYSQL: Unable to connect"  
+Warning:2021-08-02 23:14:13  *File:  *Line:0  *Function:  *Message:QSqlQuery::exec: database not open  
+Warning:2021-08-02 23:14:13  *File:  *Line:0  *Function:  *Message:QSqlDatabasePrivate::database: unable to open database: "Access denied for user 'ODBC'@'localhost' (using password: NO) QMYSQL: Unable to connect"  
+Warning:2021-08-02 23:14:13  *File:  *Line:0  *Function:  *Message:QSqlQuery::exec: database not open  
+Warning:2021-08-02 23:14:13  *File:  *Line:0  *Function:  *Message:QSqlQuery::exec: database not open  
+Warning:2021-08-02 23:14:13  *File:  *Line:0  *Function:  *Message:QSqlQuery::exec: database not open  
+Warning:2021-08-02 23:14:13  *File:  *Line:0  *Function:  *Message:QSqlQuery::exec: database not open  
+Warning:2021-08-02 23:14:13  *File:  *Line:0  *Function:  *Message:QSqlQuery::exec: database not open  
+Warning:2021-08-02 23:14:13  *File:  *Line:0  *Function:  *Message:QSqlQuery::exec: database not open  
+Warning:2021-08-02 23:14:13  *File:  *Line:0  *Function:  *Message:QSqlDatabasePrivate::database: unable to open database: "Access denied for user 'ODBC'@'localhost' (using password: NO) QMYSQL: Unable to connect"  
+Warning:2021-08-02 23:14:13  *File:  *Line:0  *Function:  *Message:QSqlQuery::exec: database not open  
+Warning:2021-08-02 23:14:13  *File:  *Line:0  *Function:  *Message:QSqlQuery::exec: database not open  
+Warning:2021-08-02 23:14:13  *File:  *Line:0  *Function:  *Message:QSqlQuery::exec: database not open  
+Warning:2021-08-02 23:14:13  *File:  *Line:0  *Function:  *Message:QSqlQuery::exec: database not open  
+Warning:2021-08-02 23:14:13  *File:  *Line:0  *Function:  *Message:QSqlQuery::exec: database not open  
+Warning:2021-08-02 23:14:13  *File:  *Line:0  *Function:  *Message:QSqlQuery::exec: database not open  
+Warning:2021-08-02 23:14:13  *File:  *Line:0  *Function:  *Message:QSqlDatabasePrivate::database: unable to open database: "Access denied for user 'ODBC'@'localhost' (using password: NO) QMYSQL: Unable to connect"  
+Warning:2021-08-02 23:14:13  *File:  *Line:0  *Function:  *Message:QSqlQuery::exec: database not open  
+Warning:2021-08-02 23:14:13  *File:  *Line:0  *Function:  *Message:QSqlQuery::exec: database not open  
+Warning:2021-08-02 23:14:13  *File:  *Line:0  *Function:  *Message:QSqlQuery::exec: database not open  
+Warning:2021-08-02 23:14:13  *File:  *Line:0  *Function:  *Message:QSqlQuery::exec: database not open  
+Warning:2021-08-02 23:14:13  *File:  *Line:0  *Function:  *Message:QSqlQuery::exec: database not open  
+Warning:2021-08-02 23:14:13  *File:  *Line:0  *Function:  *Message:QSqlQuery::exec: database not open  
+Warning:2021-08-02 23:14:13  *File:  *Line:0  *Function:  *Message:QSqlDatabasePrivate::database: unable to open database: "Access denied for user 'ODBC'@'localhost' (using password: NO) QMYSQL: Unable to connect"  
+Warning:2021-08-02 23:14:13  *File:  *Line:0  *Function:  *Message:QSqlQuery::exec: database not open  
+Warning:2021-08-02 23:14:13  *File:  *Line:0  *Function:  *Message:QSqlQuery::exec: database not open  
+Warning:2021-08-02 23:14:13  *File:  *Line:0  *Function:  *Message:QSqlQuery::exec: database not open  
+Warning:2021-08-02 23:14:13  *File:  *Line:0  *Function:  *Message:QSqlQuery::exec: database not open  
+Warning:2021-08-02 23:14:13  *File:  *Line:0  *Function:  *Message:QSqlQuery::exec: database not open  
+Warning:2021-08-02 23:14:13  *File:  *Line:0  *Function:  *Message:QSqlQuery::exec: database not open  
+Warning:2021-08-02 23:14:13  *File:  *Line:0  *Function:  *Message:QSqlDatabasePrivate::database: unable to open database: "Access denied for user 'ODBC'@'localhost' (using password: NO) QMYSQL: Unable to connect"  
+Warning:2021-08-02 23:14:13  *File:  *Line:0  *Function:  *Message:QSqlQuery::exec: database not open  
+Warning:2021-08-02 23:14:13  *File:  *Line:0  *Function:  *Message:QSqlQuery::exec: database not open  
+Warning:2021-08-02 23:14:13  *File:  *Line:0  *Function:  *Message:QSqlQuery::exec: database not open  
+Warning:2021-08-02 23:14:13  *File:  *Line:0  *Function:  *Message:QSqlQuery::exec: database not open  
+Warning:2021-08-02 23:14:13  *File:  *Line:0  *Function:  *Message:QSqlQuery::exec: database not open  
+Warning:2021-08-02 23:14:13  *File:  *Line:0  *Function:  *Message:QSqlQuery::exec: database not open  
+Debug:2021-08-02 23:14:16  *File:..\..\..\githubFlower\flower_managment_system_master_Qt_copy\whetherwindow.cpp  *Line:46  *Function:class QString __cdecl WhetherWindow::getconnect(void)  *Message:Reading code form  "http://flash.weather.com.cn/wmaps/xml/xinyang.xml"  
+Warning:2021-08-02 23:14:17  *File:  *Line:0  *Function:  *Message:Unsupported ICC profile class 70727472  
+Warning:2021-08-02 23:14:17  *File:  *Line:0  *Function:  *Message:fromIccProfile: failed general sanity check  
+Warning:2021-08-02 23:14:17  *File:  *Line:0  *Function:  *Message:Unsupported ICC profile class 70727472  
+Warning:2021-08-02 23:14:17  *File:  *Line:0  *Function:  *Message:fromIccProfile: failed general sanity check  
+Debug:2021-08-02 23:14:17  *File:..\..\..\githubFlower\flower_managment_system_master_Qt_copy\main.cpp  *Line:99  *Function:int __cdecl main(int,char *[])  *Message:数据库连接加载失败 
+  
+Warning:2021-08-02 23:14:17  *File:  *Line:0  *Function:  *Message:Unsupported ICC profile class 70727472  
+Warning:2021-08-02 23:14:17  *File:  *Line:0  *Function:  *Message:fromIccProfile: failed general sanity check  
+Warning:2021-08-02 23:15:03  *File:  *Line:0  *Function:  *Message:QObject::connect: No such signal QObject::dataChanged(QModelIndex,QModelIndex,QVector<int>)  
+Warning:2021-08-02 23:15:03  *File:  *Line:0  *Function:  *Message:QObject::connect: No such signal QObject::dataChanged(QModelIndex,QModelIndex,QVector<int>)  
+Warning:2021-08-02 23:16:17  *File:  *Line:0  *Function:  *Message:QSqlDatabasePrivate::removeDatabase: connection 'qt_sql_default_connection' is still in use, all queries will cease to work.  
+Warning:2021-08-02 23:16:17  *File:  *Line:0  *Function:  *Message:QSqlDatabasePrivate::addDatabase: duplicate connection name 'qt_sql_default_connection', old connection removed.  
+Debug:2021-08-02 23:16:18  *File:..\..\..\githubFlower\flower_managment_system_master_Qt_copy\selectwidget.cpp  *Line:59  *Function:__cdecl selectWidget::selectWidget(class QWidget *)  *Message:success,数据库连接成功  
+Debug:2021-08-02 23:16:20  *File:..\..\..\githubFlower\flower_managment_system_master_Qt_copy\whetherwindow.cpp  *Line:46  *Function:class QString __cdecl WhetherWindow::getconnect(void)  *Message:Reading code form  "http://flash.weather.com.cn/wmaps/xml/xinyang.xml"  
+Warning:2021-08-02 23:16:20  *File:  *Line:0  *Function:  *Message:Unsupported ICC profile class 70727472  
+Warning:2021-08-02 23:16:20  *File:  *Line:0  *Function:  *Message:fromIccProfile: failed general sanity check  
+Warning:2021-08-02 23:16:20  *File:  *Line:0  *Function:  *Message:Unsupported ICC profile class 70727472  
+Warning:2021-08-02 23:16:20  *File:  *Line:0  *Function:  *Message:fromIccProfile: failed general sanity check  
+Warning:2021-08-02 23:16:20  *File:  *Line:0  *Function:  *Message:Unsupported ICC profile class 70727472  
+Warning:2021-08-02 23:16:20  *File:  *Line:0  *Function:  *Message:fromIccProfile: failed general sanity check  
+Debug:2021-08-02 23:16:20  *File:..\..\..\githubFlower\flower_managment_system_master_Qt_copy\main.cpp  *Line:95  *Function:int __cdecl main(int,char *[])  *Message:数据库连接成功 
+  
+Warning:2021-08-02 23:16:27  *File:  *Line:0  *Function:  *Message:QSqlQuery::value: not positioned on a valid record  
+Warning:2021-08-02 23:16:27  *File:  *Line:0  *Function:  *Message:QSqlQuery::value: not positioned on a valid record  
+Debug:2021-08-02 23:16:27  *File:..\..\..\githubFlower\flower_managment_system_master_Qt_copy\loginwindow.cpp  *Line:68  *Function:void __cdecl LoginWindow::btn_Login_slots(void)  *Message:用户  "123" 登录成功  
+Debug:2021-08-02 23:16:30  *File:..\..\..\githubFlower\flower_managment_system_master_Qt_copy\uidemo18.cpp  *Line:245  *Function:void __cdecl UIDemo18::on_help_clicked(void)  *Message:"用户 " "123"  进入消息帮助页面 
+  
+Debug:2021-08-02 23:17:13  *File:..\..\..\githubFlower\flower_managment_system_master_Qt_copy\mainwindow.cpp  *Line:54  *Function:void __cdecl MainWindow::on_clintConnect_clicked(void)  *Message:Connect successfully!  
+Debug:2021-08-02 23:18:29  *File:..\..\..\githubFlower\flower_managment_system_master_Qt_copy\mainwindow.cpp  *Line:105  *Function:void __cdecl MainWindow::socket_Disconnected(void)  *Message:Disconnected!  
+Debug:2021-08-02 23:18:30  *File:..\..\..\githubFlower\flower_managment_system_master_Qt_copy\uidemo18.cpp  *Line:258  *Function:void __cdecl UIDemo18::on_btnQuit_clicked(void)  *Message:"用户 " "123"  退出系统 
+  
